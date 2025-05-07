@@ -86,6 +86,7 @@ development keeps pace with the OS's new releases and support lifecycle.>
    :maxdepth: 1
 
    test-1.0
+   test-1.1
 
 
 .. release note template:
