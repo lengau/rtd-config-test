@@ -15,9 +15,16 @@
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import datetime
+import re
+import starcraft
 
 project = "Starbase"
 author = "Canonical"
+UNSTABLE_VERSION_REGEX = re.compile(r"^\d+\.\d+\.0\.dev")
+if UNSTABLE_VERSION_REGEX.match(starcraft.__version__):
+    release = f"(dev)"
+else:
+    release = ".".join(str(i) for i in starcraft._version.version_tuple[:2])
 
 copyright = "2023-%s, %s" % (datetime.date.today().year, author)
 
