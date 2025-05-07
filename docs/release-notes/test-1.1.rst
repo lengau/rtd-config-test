@@ -19,3 +19,7 @@ Test 1.1.0
 - `ID <link>`_ <Title>
 - `ID <link>`_ <Title>
 
+Test 1.1.1 (Unreleased)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Some bugfix I haven't released yet.
