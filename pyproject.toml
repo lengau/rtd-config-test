@@ -91,7 +91,7 @@ write_to = "starcraft/_version.py"
 #   - .d<%Y%m%d> - present when working dir is dirty
 # version scheme when no tags exist:
 #   - 0.0.post<total commits>+g<hash>
-version_scheme = "post-release"
+version_scheme = "release-branch-semver"
 # deviations from the default 'git describe' command:
 # - only match annotated tags
 # - only match tags formatted as 'X.Y.Z'
