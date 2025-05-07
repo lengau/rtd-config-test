@@ -23,3 +23,8 @@ Test 1.0.1
 ~~~~~~~~~~
 
 - Thing!
+
+Test 1.0.2 (Unreleased)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+We fixed another thing, but we're not releasing it yet because we're mean >:(
